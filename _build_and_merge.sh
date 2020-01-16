@@ -2,7 +2,7 @@
 
 set -e
 
-BRANCH=$1
+#BRANCH=$1
 BRANCH='2020-02-snapp'
 
 export TOP
