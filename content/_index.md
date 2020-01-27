@@ -8,7 +8,7 @@ blogdown::html_page:
 </p>
 
 
-### Computational and collaboration skills for synthesis science
+### Data Science and Collaboration Skills for Integrative Conservation Science
 
 This workshop invites all the SNAPP postdocs to participate in a 4-day workshop at NCEAS to help them to:
 

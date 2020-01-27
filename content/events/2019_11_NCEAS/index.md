@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research Techniques for Synthesis (November 2019)"
+title: "Data Science and Collaboration Skills for Integrative Conservation Science"
 output:
   html_document:
     df_print: paged
@@ -9,32 +9,28 @@ type: page
 
 
 
-__Dates__: November 4 - November 8, 2019<br>
+__Dates__: February 18 - February 21, 2020<br>
 __Location__: Santa Barbara, CA<br>
 __Venue__: [NCEAS](https://www.nceas.ucsb.edu), 735 State St., Suite 300, UC Santa Barbara
-This 5-day workshop will provide researchers with an overview of best data management practices, data science tools, and concrete steps and methods for more easily producing transparent, reproducible workflows. This opportunity is for researchers from across career stages and sectors who want to gain fundamental data science skills that will improve their reproducible research techniques, particularly for the purposes of synthesis science.
+
+This intensive 4-day workshop on Data Science and Collaboration Skills for Integrative Conservation Science will be held at NCEAS, Santa Barbara, CA from Feb 18 to Feb 21, 2020. 
+
+This training, sponsored by SNAPP, aims to bring together the SNAPP and NCEAS postdoctoral associates to foster communities and collaboration, as well as promote scientific computing and open science best practices.  
+
+
 
 
 ## Curriculum at a glance:
 
-#### Enable data reuse through better data management
+The goals of this workshop are to:
 
-* Metadata - what is it and how to write a quality data description
-* Data modeling - tidy data for efficient access and storage
-* Data publishing, citation, and credit
+* Integrate collaborative science best practices within SNAPP Working Groups
+* Empower participants to adopt computing best practices in their scientific workflows and data management
+* Create a greater sense of SNAPP community 
+* Foster potential collaboration and enhanced knowledge-sharing across SNAPP Working Groups
+* Familiarize and instruct SNAPP researchers in the use of NCEAS (and other) analytical servers and services
+* Discuss mechanisms that have helped SNAPP groups to advance SNAPP’s commitment to open science
 
-#### Build reproducible scientific workflows
-
-* Data munging with R tidyverse
-* Working collaboratively - git and GitHub
-* Writing functions in R
-* Building packages for publishing reproducible research
-
-#### Communicate results effectively
-
-* Literate analysis with RMarkdown
-* Publishing analytical web pages with GitHub pages
-* Data visualization with ggplot and leaflet
 
 For more detailed information on how to prepare for the workshop, see preparing for the workshop (below).
 
@@ -43,8 +39,8 @@ For more detailed information on how to prepare for the workshop, see preparing 
 
 |Name         | Email              |
 |-------------|--------------------|
-|Matthew Jones| jones@nceas.ucsb.edu |
-|Amber Budden | aebudden@nceas.ucsb.edu|
+|Julien Brun| brun@nceas.ucsb.edu |
+|Carrie Kappel | kappel@nceas.ucsb.edu|
 |Jeanette Clark| jclark@nceas.ucsb.edu |
 
 ## Preparing for the Workshop
@@ -53,19 +49,19 @@ For more detailed information on how to prepare for the workshop, see preparing 
 
 We will primarily be using a web browser, `R`, RStudio, and `git`. Please be sure these are all installed on your laptop, as follows:
 
-- **R:** We will use R version 3.6.1, which you can download and install from [CRAN](https://cran.rstudio.com)
+- **R:** We will use R version 3.6.2, which you can download and install from [CRAN](https://cran.rstudio.com)
 
 - **RStudio**: To download RStudio, visit [RStudio's download page](https://www.rstudio.com/products/rstudio/download/).
   *If you don't know how up to date your version of RStudio is, please download an updated copy and install it*
 
 - **R packages:** Please be sure you have installed or updated the following packages:
 
-- devtools, dplyr, DT, ggplot2, leaflet, tidyr, EML, dataone, datapack, sf, rmarkdown, roxygen2, usethis, broom, captioner
+- devtools, dplyr, DT, ggplot2, ggmap, leaflet, tidyr, sf, rmarkdown, roxygen2, usethis
 
 You can install these packages quickly by running the following two code snippets:
 
 ```r
-    packages <- c("DT", "dataone", "datapack", "devtools", "dplyr", "EML", "ggmap", "ggplot2", "leaflet", "readxl", "tidyr", "scales", "sf", "rmarkdown", "roxygen2", "usethis", "broom", "captioner")
+    packages <- c("DT", "devtools", "dplyr", "ggmap", "ggplot2", "leaflet", "readxl", "tidyr", "scales", "sf", "rmarkdown", "roxygen2", "usethis")
 ```
 
 ```r
