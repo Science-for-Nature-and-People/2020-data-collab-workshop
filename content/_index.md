@@ -4,11 +4,17 @@ blogdown::html_page:
 ---
 
 <p align="center">
-  <img src="/images/NCEAS_logo.png" width="500">
+  <img src="/images/snapp-logo.png" width="500">
 </p>
 
 
-### Data Science Training
+### Computational and collaboration skills for synthesis science
 
-The research landscape is changing. Researchers are increasingly engaging in collaboration across networks; open science includes not just open publication but also open data, software, and workflows; and technology is evolving in support of this new paradigm. This five-day workshop is designed to help researchers stay abreast of current best practices and initiatives and get started on acquiring good data science skills to maximize their productivity, share their data with the scientific community effectively and efficiently, and benefit from the re-use of their data by others.
+This workshop invites all the SNAPP postdocs to participate in a 4-day workshop at NCEAS to help them to:
+
+* Create a SNAPP community among the postdocs
+* Integrate collaborative science best practices
+* Get comfortable working on (NCEAS) cyber-infrastructures
+* Help NCEAS learn more about their working group challenges 
+
 

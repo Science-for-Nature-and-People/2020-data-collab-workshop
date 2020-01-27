@@ -1,6 +1,6 @@
-baseURL = "https://nceas.github.io/repro-research-course"
+baseURL = "https://science-for-nature-and-people.github.io/2020-data-collab-workshop/"
 languageCode = "en-us"
-title = "Reproducible Research Course"
+title = "SNAPP Training"
 theme = "gohugo-theme-ananke"
 googleAnalytics = ""
 disqusShortname = ""
@@ -25,7 +25,7 @@ relativeurls = true
 
 
 [params]
-    description = "Tools and techniques for open, reproducible research and analysis"
+    description = "Tools and techniques for collaborative synthesis science"
     custom_css = ["css/ADC.css"]
 
     # options for highlight.js (version, additional languages, and theme)
@@ -45,10 +45,10 @@ relativeurls = true
     linkedin = ""
     # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
     background_color_class = "bg-near-black"
-    featured_image = "./images/sierra-nevada.jpg"
+    featured_image = "./images/fishing.jpg"
 
     [params.logo]
-    url = "./images/nceas.png"
+    url = "./images/snapp-logo.png"
     width = 50
     height = 50
     alt = "Logo"
