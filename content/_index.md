@@ -4,7 +4,7 @@ blogdown::html_page:
 ---
 
 <p align="center">
-  <img src="/images/snapp-logo.png" width="500">
+  <img src="/images/snapp-logo.jpg" width="500">
 </p>
 
 

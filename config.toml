@@ -48,7 +48,7 @@ relativeurls = true
     featured_image = "./images/fishing.jpg"
 
     [params.logo]
-    url = "./images/snapp-logo.png"
+    url = "./images/snapp-logo.jpg"
     width = 50
     height = 50
     alt = "Logo"
