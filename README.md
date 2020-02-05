@@ -16,7 +16,7 @@
 Work on this package was supported by:
 
 - The [Science for Nature and People Partnership](https://snappartnership.net/)
-- The National Center for Ecological Analysis and Synthesis [Learning Hub] (https://www.nceas.ucsb.edu/learning-hub), a Center funded by the University of California, Santa Barbara, and the State of California.
+- The National Center for Ecological Analysis and Synthesis [Learning Hub](https://www.nceas.ucsb.edu/learning-hub), a Center funded by the University of California, Santa Barbara, and the State of California.
 
 
 ## About this repository
