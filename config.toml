@@ -25,7 +25,7 @@ relativeurls = true
 
 
 [params]
-    description = "Tools and techniques for collaborative synthesis science"
+    description = "Data Science and Collaboration Skills for Integrative Conservation Science"
     custom_css = ["css/ADC.css"]
 
     # options for highlight.js (version, additional languages, and theme)
