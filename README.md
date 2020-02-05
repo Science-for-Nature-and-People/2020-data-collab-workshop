@@ -5,8 +5,11 @@
 
 ## Participants
 
-## Instructors
+## Trainers
 
+- Julien Brun
+- Jeannette Clark
+- Carrie Kappel
 
 ## Acknowledgements
 
