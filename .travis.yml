@@ -5,20 +5,15 @@ git:
 branches:
   only:
   - master
-addons:
-  apt:
-    packages:
-    - libgdal-dev
-    - libgeos-dev
-    - libproj-dev
-    - libjq-dev
-    - libv8-dev
-    - librdf0-dev
-    - libudunits2-dev
+before_install:
+  - sudo add-apt-repository ppa:ubuntugis/ppa --yes
+  - sudo apt-get --yes --force-yes update -qq
+  - sudo apt-get install --yes libudunits2-dev libproj-dev libgeos-dev libgdal-dev
 r_packages:
     - blogdown
     - remotes
     - devtools
+    - raster
 before_script:
     - Rscript -e 'blogdown::install_hugo(version = "0.59.0")'
 script:
