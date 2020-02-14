@@ -3,13 +3,34 @@
 
 ## Agenda
 
+![](https://science-for-nature-and-people.github.io/2020-data-collab-workshop/2020-02-snapp/images/snapp-schedule.png)
+
 ## Participants
+
+|Names            |Presentation Day |
+|:----------------|:----------------|
+|April Ridlon     |WED              |
+|Dan Sousa        |TUE              |
+|Grace Wu         |TUE              |
+|Hannah Fazekas   |WED              |
+|Jeremy Simmonds  |TUE              |
+|Jihoon Jung      |WED              |
+|Marcus Thomson   |WED              |
+|Mathieu Pruvot   |TUE              |
+|Michael Eggen    |TUE              |
+|Mireia Valle     |WED              |
+|Whitney Friedman |TUE              |
 
 ## Trainers
 
 - Julien Brun
 - Jeannette Clark
 - Carrie Kappel
+
+## Materials
+
+- [R self-assessment](https://cosima.nceas.ucsb.edu/r-self-assessment/#section-resources) 
+- [Workshop material](https://science-for-nature-and-people.github.io/2020-data-collab-workshop/2020-02-snapp/index.html)
 
 ## Acknowledgements
 
