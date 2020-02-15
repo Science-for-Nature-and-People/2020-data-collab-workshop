@@ -15,6 +15,7 @@ r_packages:
     - devtools
     - raster
     - rgdal
+    - patchwork
 before_script:
     - Rscript -e 'blogdown::install_hugo(version = "0.59.0")'
 script:
