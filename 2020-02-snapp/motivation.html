@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 Motivation | Data Science and Collaboration Skills for Integrative Conservation Science</title>
+  <meta name="description" content="2 Motivation | Data Science and Collaboration Skills for Integrative Conservation Science" />
+  <meta name="generator" content="bookdown 0.17.2 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 Motivation | Data Science and Collaboration Skills for Integrative Conservation Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Motivation | Data Science and Collaboration Skills for Integrative Conservation Science" />
+  
+  
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="working-on-a-remote-machine.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.12/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Data Science and Collaboration Skills for Integrative Conservation Science</a><ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#schedule"><i class="fa fa-check"></i><b>1.1</b> Schedule</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#code-of-conduct"><i class="fa fa-check"></i><b>1.1.1</b> Code of Conduct</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="motivation.html"><a href="motivation.html"><i class="fa fa-check"></i><b>2</b> Motivation</a><ul>
+<li class="chapter" data-level="2.1" data-path="motivation.html"><a href="motivation.html#learning-objectives"><i class="fa fa-check"></i><b>2.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="2.2" data-path="motivation.html"><a href="motivation.html#reproducible-research"><i class="fa fa-check"></i><b>2.2</b> Reproducible Research</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="motivation.html"><a href="motivation.html#what-is-needed-for-computational-reproducibility"><i class="fa fa-check"></i><b>2.2.1</b> What is needed for computational reproducibility?</a></li>
+<li class="chapter" data-level="2.2.2" data-path="motivation.html"><a href="motivation.html#conceptualizing-workflows"><i class="fa fa-check"></i><b>2.2.2</b> Conceptualizing workflows</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="motivation.html"><a href="motivation.html#how-can-version-control-help"><i class="fa fa-check"></i><b>2.3</b> How can version control help?</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="motivation.html"><a href="motivation.html#the-problem-with-renaming-files"><i class="fa fa-check"></i><b>2.3.1</b> The problem with renaming files</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="motivation.html"><a href="motivation.html#collaborative-research"><i class="fa fa-check"></i><b>2.4</b> Collaborative Research</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="motivation.html"><a href="motivation.html#using-shared-folders-for-data-sets"><i class="fa fa-check"></i><b>2.4.1</b> Using Shared Folders for Data Sets</a></li>
+<li class="chapter" data-level="2.4.2" data-path="motivation.html"><a href="motivation.html#using-git-and-github-for-codes"><i class="fa fa-check"></i><b>2.4.2</b> Using git and GitHub for Codes</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html"><i class="fa fa-check"></i><b>3</b> Working on a Remote Machine</a><ul>
+<li class="chapter" data-level="3.1" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#learning-objectives-1"><i class="fa fa-check"></i><b>3.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="3.2" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#why-working-on-a-remote-machine"><i class="fa fa-check"></i><b>3.2</b> Why working on a remote machine?</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#nceas-analytical-server"><i class="fa fa-check"></i><b>3.2.1</b> NCEAS analytical server</a></li>
+<li class="chapter" data-level="3.2.2" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#working-group-collaborative-setup"><i class="fa fa-check"></i><b>3.2.2</b> Working Group / Collaborative Setup</a></li>
+<li class="chapter" data-level="3.2.3" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#what-does-working-on-a-remote-server-means"><i class="fa fa-check"></i><b>3.2.3</b> What does working on a remote server means?</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#rstudio-server"><i class="fa fa-check"></i><b>3.3</b> RStudio Server</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="working-on-a-remote-machine.html"><a href="working-on-a-remote-machine.html#connecting-to-nceas-analytical-server"><i class="fa fa-check"></i><b>3.3.1</b> Connecting to NCEAS Analytical Server</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html"><i class="fa fa-check"></i><b>4</b> RStudio and Git Setup</a><ul>
+<li class="chapter" data-level="4.1" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#checking-the-rstudio-environment"><i class="fa fa-check"></i><b>4.1</b> Checking the RStudio environment</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#r-version"><i class="fa fa-check"></i><b>4.1.1</b> R Version</a></li>
+<li class="chapter" data-level="4.1.2" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#rstudio-version"><i class="fa fa-check"></i><b>4.1.2</b> RStudio Version</a></li>
+<li class="chapter" data-level="4.1.3" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#package-installation"><i class="fa fa-check"></i><b>4.1.3</b> Package installation</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#setting-up-git"><i class="fa fa-check"></i><b>4.2</b> Setting up git</a></li>
+<li class="chapter" data-level="4.3" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#other-thoughts"><i class="fa fa-check"></i><b>4.3</b> Other Thoughts</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#linking-git-and-rstudio"><i class="fa fa-check"></i><b>4.3.1</b> Linking git and RStudio</a></li>
+<li class="chapter" data-level="4.3.2" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#note-for-windows-users"><i class="fa fa-check"></i><b>4.3.2</b> Note for Windows Users</a></li>
+<li class="chapter" data-level="4.3.3" data-path="rstudio-and-git-setup.html"><a href="rstudio-and-git-setup.html#updating-a-previous-r-installation"><i class="fa fa-check"></i><b>4.3.3</b> Updating a previous R installation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html"><i class="fa fa-check"></i><b>5</b> Introduction to R and RMarkdown</a><ul>
+<li class="chapter" data-level="5.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#learning-objectives-2"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="5.2" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#introduction-and-motivation"><i class="fa fa-check"></i><b>5.2</b> Introduction and Motivation</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#resources"><i class="fa fa-check"></i><b>5.2.1</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#r-at-the-console"><i class="fa fa-check"></i><b>5.3</b> R at the console</a><ul>
+<li class="chapter" data-level="5.3.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#error-messages-are-your-friends"><i class="fa fa-check"></i><b>5.3.1</b> Error messages are your friends</a></li>
+<li class="chapter" data-level="5.3.2" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#logical-operators-and-expressions"><i class="fa fa-check"></i><b>5.3.2</b> Logical operators and expressions</a></li>
+<li class="chapter" data-level="5.3.3" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#clearing-the-environment"><i class="fa fa-check"></i><b>5.3.3</b> Clearing the environment</a></li>
+</ul></li>
+<li class="chapter" data-level="5.4" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#rmarkdown"><i class="fa fa-check"></i><b>5.4</b> RMarkdown</a><ul>
+<li class="chapter" data-level="5.4.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#your-turn"><i class="fa fa-check"></i><b>5.4.1</b> Your Turn</a></li>
+<li class="chapter" data-level="5.4.2" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#code-chunks"><i class="fa fa-check"></i><b>5.4.2</b> Code chunks</a></li>
+<li class="chapter" data-level="5.4.3" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#your-turn-1"><i class="fa fa-check"></i><b>5.4.3</b> Your turn</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#r-functions-help-pages"><i class="fa fa-check"></i><b>5.5</b> R functions, help pages</a><ul>
+<li class="chapter" data-level="5.5.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#a-simple-example"><i class="fa fa-check"></i><b>5.5.1</b> A simple example</a></li>
+<li class="chapter" data-level="5.5.2" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#getting-help"><i class="fa fa-check"></i><b>5.5.2</b> Getting help</a></li>
+<li class="chapter" data-level="5.5.3" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#your-turn-2"><i class="fa fa-check"></i><b>5.5.3</b> Your turn</a></li>
+<li class="chapter" data-level="5.5.4" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#use-a-function-to-read-a-file-into-r"><i class="fa fa-check"></i><b>5.5.4</b> Use a function to read a file into R</a></li>
+</ul></li>
+<li class="chapter" data-level="5.6" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#using-data.frames"><i class="fa fa-check"></i><b>5.6</b> Using <code>data.frames</code></a><ul>
+<li class="chapter" data-level="5.6.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#your-turn-3"><i class="fa fa-check"></i><b>5.6.1</b> Your Turn</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#troubleshooting"><i class="fa fa-check"></i><b>5.7</b> Troubleshooting</a><ul>
+<li class="chapter" data-level="5.7.1" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#my-rmarkdown-wont-knit-to-pdf"><i class="fa fa-check"></i><b>5.7.1</b> My RMarkdown won’t knit to PDF</a></li>
+<li class="chapter" data-level="5.7.2" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#i-just-entered-a-command-and-nothing-is-happening"><i class="fa fa-check"></i><b>5.7.2</b> I just entered a command and nothing is happening</a></li>
+<li class="chapter" data-level="5.7.3" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#r-says-my-object-is-not-found"><i class="fa fa-check"></i><b>5.7.3</b> R says my object is not found</a></li>
+</ul></li>
+<li class="chapter" data-level="5.8" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#literate-analysis"><i class="fa fa-check"></i><b>5.8</b> Literate Analysis</a></li>
+<li class="chapter" data-level="5.9" data-path="introduction-to-r-and-rmarkdown.html"><a href="introduction-to-r-and-rmarkdown.html#exercise"><i class="fa fa-check"></i><b>5.9</b> Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html"><i class="fa fa-check"></i><b>6</b> Version Control with git and GitHub</a><ul>
+<li class="chapter" data-level="6.1" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#learning-objectives-3"><i class="fa fa-check"></i><b>6.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.2" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#the-problem-with-save_as"><i class="fa fa-check"></i><b>6.2</b> The problem with “save_as”</a></li>
+<li class="chapter" data-level="6.3" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#git"><i class="fa fa-check"></i><b>6.3</b> git</a></li>
+<li class="chapter" data-level="6.4" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#first-repository"><i class="fa fa-check"></i><b>6.4</b> First Repository</a><ul>
+<li class="chapter" data-level="6.4.1" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#github"><i class="fa fa-check"></i><b>6.4.1</b> GitHub</a></li>
+<li class="chapter" data-level="6.4.2" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#lets-look-at-a-repository-on-github"><i class="fa fa-check"></i><b>6.4.2</b> Let’s look at a repository on GitHub</a></li>
+<li class="chapter" data-level="6.4.3" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#creating-a-repository-on-github"><i class="fa fa-check"></i><b>6.4.3</b> Creating a Repository on GitHub</a></li>
+<li class="chapter" data-level="6.4.4" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#first-commit"><i class="fa fa-check"></i><b>6.4.4</b> First commit</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#getting-a-local-copy-of-a-repository"><i class="fa fa-check"></i><b>6.5</b> Getting a Local Copy of a Repository</a></li>
+<li class="chapter" data-level="6.6" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#tracking-file-changes-with-git"><i class="fa fa-check"></i><b>6.6</b> Tracking File Changes with <code>git</code></a><ul>
+<li class="chapter" data-level="6.6.1" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#basic-workflow-overview"><i class="fa fa-check"></i><b>6.6.1</b> Basic Workflow Overview</a></li>
+<li class="chapter" data-level="6.6.2" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#using-git-from-rstudio"><i class="fa fa-check"></i><b>6.6.2</b> Using git from RStudio</a></li>
+<li class="chapter" data-level="6.6.3" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#looking-at-the-repository-history"><i class="fa fa-check"></i><b>6.6.3</b> Looking at the Repository History</a></li>
+<li class="chapter" data-level="6.6.4" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#sending-changes-back-to-github"><i class="fa fa-check"></i><b>6.6.4</b> Sending changes back to GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="6.7" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#collaboration-and-conflict-free-workflows"><i class="fa fa-check"></i><b>6.7</b> Collaboration and conflict free workflows</a></li>
+<li class="chapter" data-level="6.8" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#exercise-1"><i class="fa fa-check"></i><b>6.8</b> Exercise</a></li>
+<li class="chapter" data-level="6.9" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#advanced-topics"><i class="fa fa-check"></i><b>6.9</b> Advanced topics</a></li>
+<li class="chapter" data-level="6.10" data-path="version-control-with-git-and-github.html"><a href="version-control-with-git-and-github.html#references"><i class="fa fa-check"></i><b>6.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html"><i class="fa fa-check"></i><b>7</b> Git: Collaboration and Conflict Management</a><ul>
+<li class="chapter" data-level="7.1" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#learning-objectives-4"><i class="fa fa-check"></i><b>7.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="7.2" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#collaborating-with-git"><i class="fa fa-check"></i><b>7.2</b> Collaborating with Git</a><ul>
+<li class="chapter" data-level="7.2.1" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#activity-collaborating-with-a-trusted-colleague"><i class="fa fa-check"></i><b>7.2.1</b> Activity: Collaborating with a trusted colleague</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#merge-conflicts"><i class="fa fa-check"></i><b>7.3</b> Merge conflicts</a></li>
+<li class="chapter" data-level="7.4" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#how-to-resolve-a-conflict"><i class="fa fa-check"></i><b>7.4</b> How to resolve a conflict</a><ul>
+<li class="chapter" data-level="7.4.1" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#abort-abort-abort"><i class="fa fa-check"></i><b>7.4.1</b> Abort, abort, abort…</a></li>
+<li class="chapter" data-level="7.4.2" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#checkout"><i class="fa fa-check"></i><b>7.4.2</b> Checkout</a></li>
+<li class="chapter" data-level="7.4.3" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#pull-and-edit-the-file"><i class="fa fa-check"></i><b>7.4.3</b> Pull and edit the file</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#workflows-to-avoid-merge-conflicts"><i class="fa fa-check"></i><b>7.5</b> Workflows to avoid merge conflicts</a></li>
+<li class="chapter" data-level="7.6" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#other-collaborative-workflows-with-github"><i class="fa fa-check"></i><b>7.6</b> Other Collaborative Workflows with <code>GitHub</code></a><ul>
+<li class="chapter" data-level="7.6.1" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#collaborating-through-forking-aka-the-github-workflow"><i class="fa fa-check"></i><b>7.6.1</b> Collaborating through Forking, aka the GitHub workflow</a></li>
+<li class="chapter" data-level="7.6.2" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#collaborating-through-write-push-access"><i class="fa fa-check"></i><b>7.6.2</b> Collaborating through write / push access</a></li>
+</ul></li>
+<li class="chapter" data-level="7.7" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#working-with-branches"><i class="fa fa-check"></i><b>7.7</b> Working with branches</a><ul>
+<li class="chapter" data-level="7.7.1" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#creating-a-new-branch"><i class="fa fa-check"></i><b>7.7.1</b> Creating a new branch</a></li>
+<li class="chapter" data-level="7.7.2" data-path="git-collaboration-and-conflict-management.html"><a href="git-collaboration-and-conflict-management.html#using-a-branch"><i class="fa fa-check"></i><b>7.7.2</b> Using a branch</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html"><i class="fa fa-check"></i><b>8</b> Linux and the Command Line</a><ul>
+<li class="chapter" data-level="8.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#introduction-to-unix-and-its-siblings"><i class="fa fa-check"></i><b>8.1</b> Introduction to UNIX and its siblings</a><ul>
+<li class="chapter" data-level="8.1.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#various-unices"><i class="fa fa-check"></i><b>8.1.1</b> Various Unices</a></li>
+<li class="chapter" data-level="8.1.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#some-unix-hallmarks"><i class="fa fa-check"></i><b>8.1.2</b> Some Unix hallmarks</a></li>
+</ul></li>
+<li class="chapter" data-level="8.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#the-command-line-interface-cli"><i class="fa fa-check"></i><b>8.2</b> The Command Line Interface (CLI)</a><ul>
+<li class="chapter" data-level="8.2.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#why-the-cli-is-worth-learning"><i class="fa fa-check"></i><b>8.2.1</b> Why the CLI is worth learning</a></li>
+<li class="chapter" data-level="8.2.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#connecting-to-a-remote-server-via-ssh"><i class="fa fa-check"></i><b>8.2.2</b> Connecting to a remote server via <code>ssh</code></a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#navigating-and-managing-filesdirectories-in-nix"><i class="fa fa-check"></i><b>8.3</b> Navigating and managing files/directories in *NIX</a><ul>
+<li class="chapter" data-level="8.3.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#permissions"><i class="fa fa-check"></i><b>8.3.1</b> Permissions</a></li>
+<li class="chapter" data-level="8.3.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#exercise-2"><i class="fa fa-check"></i><b>8.3.2</b> Exercise</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#general-command-syntax"><i class="fa fa-check"></i><b>8.4</b> General command syntax</a><ul>
+<li class="chapter" data-level="8.4.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#find"><i class="fa fa-check"></i><b>8.4.1</b> find</a></li>
+</ul></li>
+<li class="chapter" data-level="8.5" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#getting-things-done"><i class="fa fa-check"></i><b>8.5</b> Getting things done</a><ul>
+<li class="chapter" data-level="8.5.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#some-useful-special-commands-using-the-control-key"><i class="fa fa-check"></i><b>8.5.1</b> Some useful, special commands using the Control key</a></li>
+<li class="chapter" data-level="8.5.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#process-management"><i class="fa fa-check"></i><b>8.5.2</b> Process management</a></li>
+<li class="chapter" data-level="8.5.3" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#what-about-space"><i class="fa fa-check"></i><b>8.5.3</b> What about “space”</a></li>
+</ul></li>
+<li class="chapter" data-level="8.6" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#uploading-files"><i class="fa fa-check"></i><b>8.6</b> Uploading Files</a><ul>
+<li class="chapter" data-level="8.6.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#rstudio"><i class="fa fa-check"></i><b>8.6.1</b> RStudio</a></li>
+<li class="chapter" data-level="8.6.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#sftp-software"><i class="fa fa-check"></i><b>8.6.2</b> sFTP Software</a></li>
+<li class="chapter" data-level="8.6.3" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#scp"><i class="fa fa-check"></i><b>8.6.3</b> scp</a></li>
+</ul></li>
+<li class="chapter" data-level="8.7" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#advanced-topics-1"><i class="fa fa-check"></i><b>8.7</b> Advanced Topics:</a><ul>
+<li class="chapter" data-level="8.7.1" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#unix-systems-are-multi-user"><i class="fa fa-check"></i><b>8.7.1</b> Unix systems are multi-user</a></li>
+<li class="chapter" data-level="8.7.2" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#a-sampling-of-simple-commands-for-dealing-with-files"><i class="fa fa-check"></i><b>8.7.2</b> A sampling of simple commands for dealing with files</a></li>
+<li class="chapter" data-level="8.7.3" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#all-files-have-permissions-and-ownership"><i class="fa fa-check"></i><b>8.7.3</b> All files have permissions and ownership</a></li>
+<li class="chapter" data-level="8.7.4" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#getting-help-1"><i class="fa fa-check"></i><b>8.7.4</b> Getting help</a></li>
+<li class="chapter" data-level="8.7.5" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#history"><i class="fa fa-check"></i><b>8.7.5</b> History</a></li>
+<li class="chapter" data-level="8.7.6" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#get-into-the-flow-with-pipes"><i class="fa fa-check"></i><b>8.7.6</b> Get into the flow, with pipes</a></li>
+<li class="chapter" data-level="8.7.7" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#text-editing"><i class="fa fa-check"></i><b>8.7.7</b> Text editing</a></li>
+<li class="chapter" data-level="8.7.8" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#create-custom-commands-with-alias"><i class="fa fa-check"></i><b>8.7.8</b> Create custom commands with “alias”</a></li>
+<li class="chapter" data-level="8.7.9" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#a-sampling-of-more-advanced-utilities"><i class="fa fa-check"></i><b>8.7.9</b> A sampling of more advanced utilities</a></li>
+</ul></li>
+<li class="chapter" data-level="8.8" data-path="linux-and-the-command-line.html"><a href="linux-and-the-command-line.html#online-resources"><i class="fa fa-check"></i><b>8.8</b> Online resources</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html"><i class="fa fa-check"></i><b>9</b> Data Modeling &amp; Tidy Data</a><ul>
+<li class="chapter" data-level="9.1" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#learning-objectives-5"><i class="fa fa-check"></i><b>9.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="9.2" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#benefits-of-relational-data-systems"><i class="fa fa-check"></i><b>9.2</b> Benefits of relational data systems</a></li>
+<li class="chapter" data-level="9.3" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#data-organization"><i class="fa fa-check"></i><b>9.3</b> Data Organization</a></li>
+<li class="chapter" data-level="9.4" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#multiple-tables"><i class="fa fa-check"></i><b>9.4</b> Multiple tables</a></li>
+<li class="chapter" data-level="9.5" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#inconsistent-observations"><i class="fa fa-check"></i><b>9.5</b> Inconsistent observations</a></li>
+<li class="chapter" data-level="9.6" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#inconsistent-variables"><i class="fa fa-check"></i><b>9.6</b> Inconsistent variables</a></li>
+<li class="chapter" data-level="9.7" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#marginal-sums-and-statistics"><i class="fa fa-check"></i><b>9.7</b> Marginal sums and statistics</a></li>
+<li class="chapter" data-level="9.8" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#good-enough-data-modeling"><i class="fa fa-check"></i><b>9.8</b> Good enough data modeling</a><ul>
+<li class="chapter" data-level="9.8.1" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#denormalized-data"><i class="fa fa-check"></i><b>9.8.1</b> Denormalized data</a></li>
+<li class="chapter" data-level="9.8.2" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#tabular-data"><i class="fa fa-check"></i><b>9.8.2</b> Tabular data</a></li>
+</ul></li>
+<li class="chapter" data-level="9.9" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#primary-and-foreign-keys"><i class="fa fa-check"></i><b>9.9</b> Primary and Foreign Keys</a></li>
+<li class="chapter" data-level="9.10" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#entity-relationship-model-er"><i class="fa fa-check"></i><b>9.10</b> Entity-Relationship Model (ER)</a></li>
+<li class="chapter" data-level="9.11" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#merging-data"><i class="fa fa-check"></i><b>9.11</b> Merging data</a></li>
+<li class="chapter" data-level="9.12" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#simple-guidelines-for-effective-data"><i class="fa fa-check"></i><b>9.12</b> Simple Guidelines for Effective Data</a></li>
+<li class="chapter" data-level="9.13" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#data-modeling-exercise"><i class="fa fa-check"></i><b>9.13</b> Data modeling exercise</a></li>
+<li class="chapter" data-level="9.14" data-path="data-modeling-tidy-data.html"><a href="data-modeling-tidy-data.html#related-resources"><i class="fa fa-check"></i><b>9.14</b> Related resources</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html"><i class="fa fa-check"></i><b>10</b> Data Cleaning and Manipulation</a><ul>
+<li class="chapter" data-level="10.1" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#learning-objectives-6"><i class="fa fa-check"></i><b>10.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="10.2" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#introduction"><i class="fa fa-check"></i><b>10.2</b> Introduction</a></li>
+<li class="chapter" data-level="10.3" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#setup"><i class="fa fa-check"></i><b>10.3</b> Setup</a></li>
+<li class="chapter" data-level="10.4" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#about-the-pipe-operator"><i class="fa fa-check"></i><b>10.4</b> About the pipe (<code>%&gt;%</code>) operator</a></li>
+<li class="chapter" data-level="10.5" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#selectingremoving-columns-select"><i class="fa fa-check"></i><b>10.5</b> Selecting/removing columns: <code>select()</code></a></li>
+<li class="chapter" data-level="10.6" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#quality-check"><i class="fa fa-check"></i><b>10.6</b> Quality Check</a></li>
+<li class="chapter" data-level="10.7" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#changing-column-content-mutate"><i class="fa fa-check"></i><b>10.7</b> Changing column content: <code>mutate()</code></a></li>
+<li class="chapter" data-level="10.8" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#changing-shape-pivot_longer-and-pivot_wider"><i class="fa fa-check"></i><b>10.8</b> Changing shape: <code>pivot_longer()</code> and <code>pivot_wider()</code></a></li>
+<li class="chapter" data-level="10.9" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#renaming-columns-with-rename"><i class="fa fa-check"></i><b>10.9</b> Renaming columns with <code>rename()</code></a></li>
+<li class="chapter" data-level="10.10" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#adding-columns-mutate"><i class="fa fa-check"></i><b>10.10</b> Adding columns: <code>mutate()</code></a></li>
+<li class="chapter" data-level="10.11" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#group_by-and-summarise"><i class="fa fa-check"></i><b>10.11</b> <code>group_by</code> and <code>summarise</code></a></li>
+<li class="chapter" data-level="10.12" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#filtering-rows-filter"><i class="fa fa-check"></i><b>10.12</b> Filtering rows: <code>filter()</code></a></li>
+<li class="chapter" data-level="10.13" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#sorting-your-data-arrange"><i class="fa fa-check"></i><b>10.13</b> Sorting your data: <code>arrange()</code></a></li>
+<li class="chapter" data-level="10.14" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#joins-in-dplyr"><i class="fa fa-check"></i><b>10.14</b> Joins in dplyr</a></li>
+<li class="chapter" data-level="10.15" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#separate-and-unite"><i class="fa fa-check"></i><b>10.15</b> <code>separate()</code> and <code>unite()</code></a></li>
+<li class="chapter" data-level="10.16" data-path="data-cleaning-and-manipulation.html"><a href="data-cleaning-and-manipulation.html#summary"><i class="fa fa-check"></i><b>10.16</b> Summary</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html"><i class="fa fa-check"></i><b>11</b> Collaboration: Designing and facilitating effective meetings</a><ul>
+<li class="chapter" data-level="11.1" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#learning-objectives-7"><i class="fa fa-check"></i><b>11.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="11.2" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#what-makes-meetings-effective"><i class="fa fa-check"></i><b>11.2</b> What makes meetings effective?</a></li>
+<li class="chapter" data-level="11.3" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#designing-for-successful-team-science-meetings"><i class="fa fa-check"></i><b>11.3</b> Designing for successful team science meetings</a></li>
+<li class="chapter" data-level="11.4" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#sharing-the-load-of-effective-meeting-facilitation"><i class="fa fa-check"></i><b>11.4</b> Sharing the load of effective meeting facilitation</a></li>
+<li class="chapter" data-level="11.5" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#creating-the-conditions-for-quality-participation"><i class="fa fa-check"></i><b>11.5</b> Creating the conditions for quality participation</a></li>
+<li class="chapter" data-level="11.6" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#techniques-for-democratizing-participation"><i class="fa fa-check"></i><b>11.6</b> Techniques for democratizing participation</a></li>
+<li class="chapter" data-level="11.7" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#the-groan-zone-aka-the-diamond-participation-model"><i class="fa fa-check"></i><b>11.7</b> The Groan Zone (aka the Diamond Participation Model)</a></li>
+<li class="chapter" data-level="11.8" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#techniques-to-support-divergent-and-emergent-thinking"><i class="fa fa-check"></i><b>11.8</b> Techniques to support divergent and emergent thinking</a></li>
+<li class="chapter" data-level="11.9" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#making-thinking-visible"><i class="fa fa-check"></i><b>11.9</b> Making thinking visible</a></li>
+<li class="chapter" data-level="11.10" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#techniques-to-support-convergent-thinking-i.e.-getting-to-agreement"><i class="fa fa-check"></i><b>11.10</b> Techniques to support convergent thinking (i.e., getting to agreement)</a></li>
+<li class="chapter" data-level="11.11" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#virtual-meeting-best-practices"><i class="fa fa-check"></i><b>11.11</b> Virtual meeting best practices</a></li>
+<li class="chapter" data-level="11.12" data-path="collaboration-designing-and-facilitating-effective-meetings.html"><a href="collaboration-designing-and-facilitating-effective-meetings.html#resources-1"><i class="fa fa-check"></i><b>11.12</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="publication-graphics.html"><a href="publication-graphics.html"><i class="fa fa-check"></i><b>12</b> Publication Graphics</a><ul>
+<li class="chapter" data-level="12.1" data-path="publication-graphics.html"><a href="publication-graphics.html#learning-objectives-8"><i class="fa fa-check"></i><b>12.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="12.2" data-path="publication-graphics.html"><a href="publication-graphics.html#overview"><i class="fa fa-check"></i><b>12.2</b> Overview</a><ul>
+<li class="chapter" data-level="12.2.1" data-path="publication-graphics.html"><a href="publication-graphics.html#ggplot-vs-base-vs-lattice-vs-xyz"><i class="fa fa-check"></i><b>12.2.1</b> ggplot vs base vs lattice vs XYZ…</a></li>
+</ul></li>
+<li class="chapter" data-level="12.3" data-path="publication-graphics.html"><a href="publication-graphics.html#setup-1"><i class="fa fa-check"></i><b>12.3</b> Setup</a><ul>
+<li class="chapter" data-level="12.3.1" data-path="publication-graphics.html"><a href="publication-graphics.html#load-salmon-escapement-data"><i class="fa fa-check"></i><b>12.3.1</b> Load salmon escapement data</a></li>
+</ul></li>
+<li class="chapter" data-level="12.4" data-path="publication-graphics.html"><a href="publication-graphics.html#static-figures-using-ggplot2"><i class="fa fa-check"></i><b>12.4</b> Static figures using <code>ggplot2</code></a><ul>
+<li class="chapter" data-level="12.4.1" data-path="publication-graphics.html"><a href="publication-graphics.html#setting-ggplot-themes"><i class="fa fa-check"></i><b>12.4.1</b> Setting ggplot themes</a></li>
+<li class="chapter" data-level="12.4.2" data-path="publication-graphics.html"><a href="publication-graphics.html#smarter-tick-labels-using-scales"><i class="fa fa-check"></i><b>12.4.2</b> Smarter tick labels using <code>scales</code></a></li>
+<li class="chapter" data-level="12.4.3" data-path="publication-graphics.html"><a href="publication-graphics.html#creating-multiple-plots"><i class="fa fa-check"></i><b>12.4.3</b> Creating multiple plots</a></li>
+<li class="chapter" data-level="12.4.4" data-path="publication-graphics.html"><a href="publication-graphics.html#several-plots-one-figure"><i class="fa fa-check"></i><b>12.4.4</b> Several plots, one figure</a></li>
+</ul></li>
+<li class="chapter" data-level="12.5" data-path="publication-graphics.html"><a href="publication-graphics.html#interactive-visualization-using-leaflet-and-dt"><i class="fa fa-check"></i><b>12.5</b> Interactive visualization using <code>leaflet</code> and <code>DT</code></a><ul>
+<li class="chapter" data-level="12.5.1" data-path="publication-graphics.html"><a href="publication-graphics.html#tables"><i class="fa fa-check"></i><b>12.5.1</b> Tables</a></li>
+<li class="chapter" data-level="12.5.2" data-path="publication-graphics.html"><a href="publication-graphics.html#maps"><i class="fa fa-check"></i><b>12.5.2</b> Maps</a></li>
+</ul></li>
+<li class="chapter" data-level="12.6" data-path="publication-graphics.html"><a href="publication-graphics.html#resources-2"><i class="fa fa-check"></i><b>12.6</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html"><i class="fa fa-check"></i><b>13</b> Getting the Most out of Collaborative Science</a><ul>
+<li class="chapter" data-level="13.1" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html#learning-objectives-9"><i class="fa fa-check"></i><b>13.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="13.2" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html#aligning-around-shared-purpose-and-a-clear-work-plan"><i class="fa fa-check"></i><b>13.2</b> Aligning around shared purpose and a clear work plan</a></li>
+<li class="chapter" data-level="13.3" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html#culture-and-leadership"><i class="fa fa-check"></i><b>13.3</b> Culture and leadership</a></li>
+<li class="chapter" data-level="13.4" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html#traditional-and-network-mindsets"><i class="fa fa-check"></i><b>13.4</b> Traditional and network mindsets</a></li>
+<li class="chapter" data-level="13.5" data-path="getting-the-most-out-of-collaborative-science.html"><a href="getting-the-most-out-of-collaborative-science.html#resources-3"><i class="fa fa-check"></i><b>13.5</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="navigating-challenges-in-collaborative-science.html"><a href="navigating-challenges-in-collaborative-science.html"><i class="fa fa-check"></i><b>14</b> Navigating Challenges in Collaborative Science</a><ul>
+<li class="chapter" data-level="14.1" data-path="navigating-challenges-in-collaborative-science.html"><a href="navigating-challenges-in-collaborative-science.html#learning-objectives-10"><i class="fa fa-check"></i><b>14.1</b> Learning objectives</a></li>
+<li class="chapter" data-level="14.2" data-path="navigating-challenges-in-collaborative-science.html"><a href="navigating-challenges-in-collaborative-science.html#authorship-and-credit"><i class="fa fa-check"></i><b>14.2</b> Authorship and credit</a></li>
+<li class="chapter" data-level="14.3" data-path="navigating-challenges-in-collaborative-science.html"><a href="navigating-challenges-in-collaborative-science.html#data-sharing"><i class="fa fa-check"></i><b>14.3</b> Data sharing</a></li>
+<li class="chapter" data-level="14.4" data-path="navigating-challenges-in-collaborative-science.html"><a href="navigating-challenges-in-collaborative-science.html#resources-4"><i class="fa fa-check"></i><b>14.4</b> Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html"><i class="fa fa-check"></i><b>15</b> Coding best practices and tips</a><ul>
+<li class="chapter" data-level="15.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#scripting-languages"><i class="fa fa-check"></i><b>15.1</b> Scripting languages</a><ul>
+<li class="chapter" data-level="15.1.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#dont-start-coding-without-planning"><i class="fa fa-check"></i><b>15.1.1</b> Don’t start coding without planning!</a></li>
+</ul></li>
+<li class="chapter" data-level="15.2" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#structure-of-a-script"><i class="fa fa-check"></i><b>15.2</b> Structure of a script</a><ul>
+<li class="chapter" data-level="15.2.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#few-important-principles"><i class="fa fa-check"></i><b>15.2.1</b> Few important principles</a></li>
+</ul></li>
+<li class="chapter" data-level="15.3" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#functions"><i class="fa fa-check"></i><b>15.3</b> Functions</a><ul>
+<li class="chapter" data-level="15.3.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#defining-a-function"><i class="fa fa-check"></i><b>15.3.1</b> Defining a function</a></li>
+<li class="chapter" data-level="15.3.2" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#r-function-definition"><i class="fa fa-check"></i><b>15.3.2</b> R function definition</a></li>
+<li class="chapter" data-level="15.3.3" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#calling-a-function"><i class="fa fa-check"></i><b>15.3.3</b> Calling a function</a></li>
+<li class="chapter" data-level="15.3.4" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#challenge"><i class="fa fa-check"></i><b>15.3.4</b> Challenge</a></li>
+</ul></li>
+<li class="chapter" data-level="15.4" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#scope-global-vs.local-environment"><i class="fa fa-check"></i><b>15.4</b> Scope: Global vs. Local Environment</a><ul>
+<li class="chapter" data-level="15.4.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#challenge-1"><i class="fa fa-check"></i><b>15.4.1</b> Challenge</a></li>
+<li class="chapter" data-level="15.4.2" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#one-last-one"><i class="fa fa-check"></i><b>15.4.2</b> One last one</a></li>
+</ul></li>
+<li class="chapter" data-level="15.5" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#note-about-loading-libraries-in-r"><i class="fa fa-check"></i><b>15.5</b> Note about loading libraries in R</a><ul>
+<li class="chapter" data-level="15.5.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#namespace"><i class="fa fa-check"></i><b>15.5.1</b> Namespace</a></li>
+<li class="chapter" data-level="15.5.2" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#challenge-2"><i class="fa fa-check"></i><b>15.5.2</b> Challenge</a></li>
+</ul></li>
+<li class="chapter" data-level="15.6" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#solutions-to-function-challenge"><i class="fa fa-check"></i><b>15.6</b> Solutions to function challenge</a><ul>
+<li class="chapter" data-level="15.6.1" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#first-function-task"><i class="fa fa-check"></i><b>15.6.1</b> First function task</a></li>
+<li class="chapter" data-level="15.6.2" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#second-function-task"><i class="fa fa-check"></i><b>15.6.2</b> Second function task</a></li>
+<li class="chapter" data-level="15.6.3" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#third-function-task"><i class="fa fa-check"></i><b>15.6.3</b> Third function task</a></li>
+</ul></li>
+<li class="chapter" data-level="15.7" data-path="coding-best-practices-and-tips.html"><a href="coding-best-practices-and-tips.html#references-1"><i class="fa fa-check"></i><b>15.7</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="best-practices-data-and-metadata.html"><a href="best-practices-data-and-metadata.html"><i class="fa fa-check"></i><b>16</b> Best Practices: Data and Metadata</a><ul>
+<li class="chapter" data-level="16.1" data-path="best-practices-data-and-metadata.html"><a href="best-practices-data-and-metadata.html#learning-objectives-11"><i class="fa fa-check"></i><b>16.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="16.2" data-path="best-practices-data-and-metadata.html"><a href="best-practices-data-and-metadata.html#preserving-computational-workflows"><i class="fa fa-check"></i><b>16.2</b> Preserving computational workflows</a></li>
+<li class="chapter" data-level="16.3" data-path="best-practices-data-and-metadata.html"><a href="best-practices-data-and-metadata.html#best-practices-overview"><i class="fa fa-check"></i><b>16.3</b> Best Practices: Overview</a></li>
+<li class="chapter" data-level="16.4" data-path="best-practices-data-and-metadata.html"><a href="best-practices-data-and-metadata.html#organizing-data-best-practices"><i class="fa fa-check"></i><b>16.4</b> Organizing Data: Best Practices</a></li>
+</ul></li>
+<li class="chapter" data-level="17" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html"><i class="fa fa-check"></i><b>17</b> Spatial vector analysis using <code>sf</code></a><ul>
+<li class="chapter" data-level="17.1" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#learning-objectives-12"><i class="fa fa-check"></i><b>17.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="17.2" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#introduction-1"><i class="fa fa-check"></i><b>17.2</b> Introduction</a></li>
+<li class="chapter" data-level="17.3" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#reading-a-shapefile"><i class="fa fa-check"></i><b>17.3</b> Reading a shapefile</a><ul>
+<li class="chapter" data-level="17.3.1" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#setup-2"><i class="fa fa-check"></i><b>17.3.1</b> Setup</a></li>
+<li class="chapter" data-level="17.3.2" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#coordinate-reference-system"><i class="fa fa-check"></i><b>17.3.2</b> Coordinate Reference System</a></li>
+<li class="chapter" data-level="17.3.3" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#attributes"><i class="fa fa-check"></i><b>17.3.3</b> Attributes</a></li>
+</ul></li>
+<li class="chapter" data-level="17.4" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#sf-the-tidyverse"><i class="fa fa-check"></i><b>17.4</b> <code>sf</code> &amp; the Tidyverse</a><ul>
+<li class="chapter" data-level="17.4.1" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#joins"><i class="fa fa-check"></i><b>17.4.1</b> Joins</a></li>
+<li class="chapter" data-level="17.4.2" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#group-and-summarize"><i class="fa fa-check"></i><b>17.4.2</b> Group and summarize</a></li>
+<li class="chapter" data-level="17.4.3" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#save"><i class="fa fa-check"></i><b>17.4.3</b> Save</a></li>
+</ul></li>
+<li class="chapter" data-level="17.5" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#visualize-with-ggplot"><i class="fa fa-check"></i><b>17.5</b> Visualize with ggplot</a></li>
+<li class="chapter" data-level="17.6" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#incorporate-base-maps-into-static-maps-using-ggmap"><i class="fa fa-check"></i><b>17.6</b> Incorporate base maps into static maps using <code>ggmap</code></a></li>
+<li class="chapter" data-level="17.7" data-path="spatial-vector-analysis-using-sf.html"><a href="spatial-vector-analysis-using-sf.html#visualize-sf-objects-with-leaflet"><i class="fa fa-check"></i><b>17.7</b> Visualize <code>sf</code> objects with leaflet</a></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="raster-analysis.html"><a href="raster-analysis.html"><i class="fa fa-check"></i><b>18</b> Raster Analysis</a><ul>
+<li class="chapter" data-level="18.1" data-path="raster-analysis.html"><a href="raster-analysis.html#learning-objectives-13"><i class="fa fa-check"></i><b>18.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="18.2" data-path="raster-analysis.html"><a href="raster-analysis.html#introduction-2"><i class="fa fa-check"></i><b>18.2</b> Introduction</a><ul>
+<li class="chapter" data-level="18.2.1" data-path="raster-analysis.html"><a href="raster-analysis.html#raster-file-formats"><i class="fa fa-check"></i><b>18.2.1</b> Raster File Formats</a></li>
+</ul></li>
+<li class="chapter" data-level="18.3" data-path="raster-analysis.html"><a href="raster-analysis.html#the-raster-package"><i class="fa fa-check"></i><b>18.3</b> The <code>raster</code> Package</a><ul>
+<li class="chapter" data-level="18.3.1" data-path="raster-analysis.html"><a href="raster-analysis.html#plotting"><i class="fa fa-check"></i><b>18.3.1</b> Plotting</a></li>
+<li class="chapter" data-level="18.3.2" data-path="raster-analysis.html"><a href="raster-analysis.html#calculation-with-raster"><i class="fa fa-check"></i><b>18.3.2</b> Calculation with raster</a></li>
+</ul></li>
+<li class="chapter" data-level="18.4" data-path="raster-analysis.html"><a href="raster-analysis.html#other-thoughts-1"><i class="fa fa-check"></i><b>18.4</b> Other Thoughts</a><ul>
+<li class="chapter" data-level="18.4.1" data-path="raster-analysis.html"><a href="raster-analysis.html#raster-processing-can-be-slow"><i class="fa fa-check"></i><b>18.4.1</b> Raster processing can be slow</a></li>
+<li class="chapter" data-level="18.4.2" data-path="raster-analysis.html"><a href="raster-analysis.html#preprocessing-we-did"><i class="fa fa-check"></i><b>18.4.2</b> Preprocessing we did</a></li>
+</ul></li>
+<li class="chapter" data-level="18.5" data-path="raster-analysis.html"><a href="raster-analysis.html#references-2"><i class="fa fa-check"></i><b>18.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="19" data-path="finding-help.html"><a href="finding-help.html"><i class="fa fa-check"></i><b>19</b> Finding help</a><ul>
+<li class="chapter" data-level="19.1" data-path="finding-help.html"><a href="finding-help.html#from-within-r"><i class="fa fa-check"></i><b>19.1</b> From within R</a></li>
+<li class="chapter" data-level="19.2" data-path="finding-help.html"><a href="finding-help.html#task-views"><i class="fa fa-check"></i><b>19.2</b> Task views</a></li>
+<li class="chapter" data-level="19.3" data-path="finding-help.html"><a href="finding-help.html#rstudio-website"><i class="fa fa-check"></i><b>19.3</b> RStudio Website</a></li>
+<li class="chapter" data-level="19.4" data-path="finding-help.html"><a href="finding-help.html#solving-problems"><i class="fa fa-check"></i><b>19.4</b> Solving problems</a><ul>
+<li class="chapter" data-level="19.4.1" data-path="finding-help.html"><a href="finding-help.html#do-it-yourself"><i class="fa fa-check"></i><b>19.4.1</b> Do it yourself</a></li>
+<li class="chapter" data-level="19.4.2" data-path="finding-help.html"><a href="finding-help.html#search-forums-blogs"><i class="fa fa-check"></i><b>19.4.2</b> Search Forums, blogs, …</a></li>
+<li class="chapter" data-level="19.4.3" data-path="finding-help.html"><a href="finding-help.html#posting-a-question"><i class="fa fa-check"></i><b>19.4.3</b> Posting a question</a></li>
+</ul></li>
+<li class="chapter" data-level="19.5" data-path="finding-help.html"><a href="finding-help.html#communities"><i class="fa fa-check"></i><b>19.5</b> Communities</a></li>
+<li class="chapter" data-level="19.6" data-path="finding-help.html"><a href="finding-help.html#nceas"><i class="fa fa-check"></i><b>19.6</b> NCEAS</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Data Science and Collaboration Skills for Integrative Conservation Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="motivation" class="section level1">
+<h1><span class="header-section-number">2</span> Motivation</h1>
+<div id="learning-objectives" class="section level2">
+<h2><span class="header-section-number">2.1</span> Learning Objectives</h2>
+<p>In this lesson, you will learn:</p>
+<ul>
+<li>What computational reproducibility is and why it is useful</li>
+<li>How version control can increase computational reproducibility</li>
+<li>How to check to make sure your RStudio environment is set up properly for analysis</li>
+<li>How to set up git</li>
+</ul>
+</div>
+<div id="reproducible-research" class="section level2">
+<h2><span class="header-section-number">2.2</span> Reproducible Research</h2>
+<p>Reproducibility is the hallmark of science, which is based on empirical observations
+coupled with explanatory models. While reproducibility encompasses
+the full science lifecycle, and includes issues such as methodological consistency and
+treatment of bias, in this course we will focus on <strong>computational reproducibility</strong>:
+the ability to document data, analyses, and models sufficiently for other researchers
+to be able to understand and ideally re-execute the computations that led to
+scientific results and conclusions.</p>
+<div id="what-is-needed-for-computational-reproducibility" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> What is needed for computational reproducibility?</h3>
+<p>The first step towards addressing these issues is to be able to evaluate the data,
+analyses, and models on which conclusions are drawn. Under current practice,
+this can be difficult because data are typically unavailable, the method sections
+of papers do not detail the computational approaches used, and analyses and models
+are often conducted in graphical programs, or, when scripted analyses are employed,
+the code is not available.</p>
+<p>And yet, this is easily remedied. Researchers can achieve computational
+reproducibility through open science approaches, including straightforward steps
+for archiving data and code openly along with the scientific workflows describing
+the provenance of scientific results (e.g., <span class="citation">Hampton et al. (<a href="#ref-hampton_tao_2015">2015</a>)</span>, <span class="citation">Munafò et al. (<a href="#ref-munafo_manifesto_2017">2017</a>)</span>).</p>
+</div>
+<div id="conceptualizing-workflows" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Conceptualizing workflows</h3>
+<p>Scientific workflows encapsulate all of the steps from data acquisition, cleaning,
+transformation, integration, analysis, and visualization.</p>
+<p><img src="images/workflow.png" /></p>
+<p>Workflows can range in detail from simple flowcharts
+to fully executable scripts. R scripts and python scripts are a textual form
+of a workflow, and when researchers publish specific versions of the scripts and
+data used in an analysis, it becomes far easier to repeat their computations and
+understand the provenance of their conclusions.</p>
+</div>
+</div>
+<div id="how-can-version-control-help" class="section level2">
+<h2><span class="header-section-number">2.3</span> How can version control help?</h2>
+<div id="the-problem-with-renaming-files" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> The problem with renaming files</h3>
+<p><img src="images/phd_comics_final.png" /></p>
+<p>Every file in the scientific process changes. Manuscripts are edited.
+Figures get revised. Code gets fixed when problems are discovered. Data files
+get combined together, then errors are fixed, and then they are split and
+combined again. In the course of a single analysis, one can expect thousands of
+changes to files. And yet, often all we use to track all these changes are duplicating files and embedding some logic into <em>filenames</em>.<br />
+You might think there is a better way, and you’d be right: <strong>version control</strong>.</p>
+<p>Version control systems help you track all of the changes to your files, without
+the spaghetti mess that ensues from simple file renaming and duplication. In version control systems
+like <code>git</code>, the system tracks not just the name of the file, but also its contents,
+so that when contents change, it can tell you which pieces went where. It tracks
+which version of a file a new version came from. So its easy to draw a graph
+showing all of the versions of a file, like this one:</p>
+<p><img src="images/version-graph.png" /></p>
+<p>Version control systems assign an identifier to every version of every file, and
+track their relationships. They also allow branches in those versions, and merging
+those branches back into the main line of work. They also support having
+<em>multiple copies</em> on multiple computers for backup, and for collaboration.
+And finally, they let you tag particular versions, such that it is easy to return
+to a set of files exactly as they were when you tagged them. For example, the
+exact versions of data, code, and narrative that were used when a manuscript was
+submitted might be <code>R2</code> in the graph above.</p>
+<p>These versions a tight together as an history that you can navigate to go back to any specific version of a file. A more concrete example will be an R script. After implementing several modifications, you realize that your code is not working anymore, with version control you can go back to the previous version that used to work.</p>
+</div>
+</div>
+<div id="collaborative-research" class="section level2">
+<h2><span class="header-section-number">2.4</span> Collaborative Research</h2>
+<p>Most of the environmental sciences research is done in a collaborative set up. This especially true with the synthesis working group model that NCEAS has been using and refining over the years. These groups of experts with different background, tools and methods, have to collaborate together and build on others work (particularly data).</p>
+<p>In this tight collaborative setup involving people from many different institutions, we recommend to manage your data and codes on a unique server / remote machine using the following strategies to centralize and share your work.</p>
+<div id="using-shared-folders-for-data-sets" class="section level3">
+<h3><span class="header-section-number">2.4.1</span> Using Shared Folders for Data Sets</h3>
+<p>To centralize the management of your data, we recommend to set up shared folder (or also named directories) on the server and give access to all the members of your group. This will prevent the duplication of data and reduce the risk of people working on different versions of your data sets. Regarding your input data, we recommend to write protect them, so nobody can overwrite your original data on accident. For output data, you can develop different strategies. Note it is often useful to see the outputs data more as a secondary product of a specific version of your code. In other words, you should be always able to reproduce a specific results if you go back to the corresponding version of your code.</p>
+</div>
+<div id="using-git-and-github-for-codes" class="section level3">
+<h3><span class="header-section-number">2.4.2</span> Using git and GitHub for Codes</h3>
+<p>For code sharing, we recommend a different setup than the one for data. Your scripts should be stored under your personal folder on the server and you should not be sharing this folder with others. You should rely on a version control system to version and share your code. This will allow to manage more efficiently potential conflict between different versions of the same script. In this workshop, we will use git a version control system and relying on the service GitHub to share or code. T</p>
+
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-hampton_tao_2015">
+<p>Hampton, Stephanie E, Sean Anderson, Sarah C Bagby, Corinna Gries, Xueying Han, Edmund Hart, Matthew B Jones, et al. 2015. “The Tao of Open Science for Ecology.” <em>Ecosphere</em> 6 (July). <a href="https://doi.org/http://dx.doi.org/10.1890/ES14-00402.1" class="uri">https://doi.org/http://dx.doi.org/10.1890/ES14-00402.1</a>.</p>
+</div>
+<div id="ref-munafo_manifesto_2017">
+<p>Munafò, Marcus R., Brian A. Nosek, Dorothy V. M. Bishop, Katherine S. Button, Christopher D. Chambers, Nathalie Percie du Sert, Uri Simonsohn, Eric-Jan Wagenmakers, Jennifer J. Ware, and John P. A. Ioannidis. 2017. “A Manifesto for Reproducible Science.” <em>Nature Human Behaviour</em> 1 (1): 0021. <a href="https://doi.org/10.1038/s41562-016-0021" class="uri">https://doi.org/10.1038/s41562-016-0021</a>.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="working-on-a-remote-machine.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

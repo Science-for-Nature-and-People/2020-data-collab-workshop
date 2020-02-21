@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNAPP Training</title>
+    <link>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/</link>
+    <description>Recent content on SNAPP Training</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://science-for-nature-and-people.github.io/2020-data-collab-workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science and Collaboration Skills for Integrative Conservation Science</title>
+      <link>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/events/2020_02_snapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/events/2020_02_snapp/</guid>
+      <description>Dates: February 18 - February 21, 2020
+Location: Santa Barbara, CA
+Venue: NCEAS, 735 State St., Suite 300, UC Santa Barbara
+This intensive 4-day workshop on Data Science and Collaboration Skills for Integrative Conservation Science will be held at NCEAS, Santa Barbara, CA from Feb 18 to Feb 21, 2020.
+This training, sponsored by SNAPP, aims to bring together the SNAPP and NCEAS postdoctoral associates to foster communities and collaboration, as well as promote scientific computing and open science best practices.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/materials/</guid>
+      <description> Materials  Data Science and Collaboration Skills for Integrative Conservation Science R self-assessment  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/events/2020_02_snapp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/</loc>
+  </url>
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/materials/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/events/</loc>
+  </url>
+  
+  <url>
+    <loc>https://science-for-nature-and-people.github.io/2020-data-collab-workshop/tags/</loc>
+  </url>
+  
+</urlset>
