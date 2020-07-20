@@ -4,7 +4,7 @@ blogdown::html_page:
 ---
 
 <p align="center">
-    <img  src="https://www.nceas.ucsb.edu/files/logos/SNAP/Snapp-Acronym-Color.jpg" width="250px" align="left" /><img src="https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-full%20logo-4C.jpg" width="250px" align="right"/>
+    <img  src="https://www.nceas.ucsb.edu/sites/default/files/2020-03/Snapp-Acronym-Color.png" width="250px" align="left" /><img src="https://www.nceas.ucsb.edu/files/logos/NCEAS/NCEAS-full%20logo-4C.jpg" width="250px" align="right"/>
 </p>
 
 <br>
